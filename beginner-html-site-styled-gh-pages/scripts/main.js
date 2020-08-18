@@ -1,6 +1,3 @@
-const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -13,8 +10,7 @@ myImage.onclick = function() {
 }
 
 let myButton = document.querySelector('button');
-//This causes an exception and must be commented out for the welcome message and button to do anything.
-//let myHeading = document.querySelector('h1');
+let myHeading = document.querySelector('h1');
 
 function setUserName() {
     let myName = prompt('Please enter your name.');
